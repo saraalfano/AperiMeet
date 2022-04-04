@@ -1,0 +1,9 @@
+body{
+    background-image:URL("sfondo aperimeet.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    position: relative;
+}
