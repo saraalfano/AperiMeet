@@ -46,7 +46,7 @@ function validaMail(){
       alert("Errore! La password deve contenere almeno una lettera maiuscola, un numero e un carattere speciale");
       return false;
     }
-    return true;
+    if(p.length >= 8 && controlla == 4) return true;
     }
 
     function verificaPassword(){
@@ -69,6 +69,26 @@ return false;
 if(document.myForm.inputEmail.value == ""){
 alert("inserire email!");
 return false;
+}
+if(document.myForm.pass.value == ""){
+  alert("inserire password!");
+  return false;
+}
+if(document.myForm.password2.value == ""){
+  alert("inserire password!");
+  return false;
+}
+if(verificaPassword() == false){
+  alert("password incorretta!");
+  return false;
+}
+if(controllaPassword() == false){
+  alert("password incorretta!");
+  return false;
+}
+if(validaMail() == false){
+  alert("email incorretta!");
+  return false;
 }
 alert("tutti i dati inseriti correttamente!");
 return true;
