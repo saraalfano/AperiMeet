@@ -60,6 +60,7 @@ nome
 cognome
 password
 immagine
+
 -tabella richiesta: 
 email 
 locale
