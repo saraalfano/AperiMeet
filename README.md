@@ -54,6 +54,7 @@ e infine le immagini utilizzate all’interno del file html e del file php.
 Oltre a queste cartelle sono presenti i file utili per impostare l’icona delle pagine del sito.
 
 DATABASE:
+
 -tabella utente:  
 email (primary key)
 nome
